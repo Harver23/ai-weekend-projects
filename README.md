@@ -1,6 +1,6 @@
-# AI Weekend Projects
+# Weekend Projects
 
-Two small, real AI projects — each buildable and usable in a weekend.
+Two small projects — each buildable and usable in a weekend.
 
 | Project | What it does | Stack |
 |---|---|---|
