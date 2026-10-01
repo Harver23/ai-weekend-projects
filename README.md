@@ -1,35 +1,21 @@
-# Weekend Projects
+# AI Weekend Projects
 
-Two small projects — each buildable and usable in a weekend.
+Two small, practical AI applications built in a weekend. Each project is intentionally focused on a useful workflow rather than a large framework.
 
-| Project | What it does | Stack |
-|---|---|---|
-| [`flashcard-quiz-generator/`](./flashcard-quiz-generator) | Paste notes, get flashcards + a quiz | Ollama (local LLM) + Streamlit |
-| [`finance-categorizer/`](./finance-categorizer) | Upload a bank statement, get spends categorized and unusual ones flagged | pandas + scikit-learn + Streamlit |
+## Projects
 
-Each folder is a standalone app with its own `README.md` and
-`requirements.txt` — go into either folder and follow its setup steps.
+### Local-LLM Flashcards and Quiz Generator
 
-## Why these two
+Generate study flashcards and quiz questions from your own notes using a locally running language model through Ollama. The Streamlit interface keeps the workflow private and easy to run locally.
 
-- **Flashcard & Quiz Generator** — a study tool you'll actually keep using,
-  and it costs nothing to run since the model runs locally.
-- **Personal Finance Categorizer** — shows AI applied to real, messy personal
-  data (a bank statement), which is closer to what most AI jobs actually look
-  like than a toy dataset.
+### Bank-Statement Spend Categorizer
 
-## Repo layout
+Categorize transaction descriptions into spending groups using pandas and scikit-learn, with a Streamlit interface for reviewing results.
 
-```
-ai-weekend-projects/
-├── flashcard-quiz-generator/
-│   ├── app.py
-│   ├── requirements.txt
-│   └── README.md
-├── finance-categorizer/
-│   ├── app.py
-│   ├── requirements.txt
-│   ├── sample_statement.csv
-│   └── README.md
-└── README.md   (this file)
-```
+## Why this repository
+
+These projects demonstrate practical AI prototyping, local model usage, tabular data preparation, lightweight machine learning, and user-focused interfaces.
+
+## Status
+
+Weekend prototypes intended for learning and extension. Review generated classifications before using them for financial decisions.
